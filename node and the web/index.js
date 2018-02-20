@@ -31,7 +31,7 @@ server.on('request', (request, response)=>{
       const post = querystring.parse(body);
       console.log( post);
       response.writeHead(200, {'Content-Type': 'text/plain'})
-      response.end('Hello bitches\n')
+      response.end('Hello homies\n')
     })
   }
 })
@@ -43,7 +43,7 @@ console.log('server is listening on 8124');
 const http = require('http')
 const querystring = require('querystring')
 
-const postData = querystring.stringify({'message': "Sup Bitches"})
+const postData = querystring.stringify({'message': "Sup homies"})
 
 const options = {
   hostname: 'localhost',

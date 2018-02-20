@@ -1,7 +1,7 @@
 const http = require('http')
 const querystring = require('querystring')
 
-const postData = querystring.stringify({'message': "Sup Bitches"})
+const postData = querystring.stringify({'message': "Sup homies"})
 
 const options = {
   hostname: 'localhost',
